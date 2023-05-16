@@ -11,7 +11,7 @@ int main(){
         int column =1;
         int value = row;
         while(column<=row){
-            cout<<value;
+            cout<<value<<" ";
             value = value + 1;
             column = column + 1; 
         }

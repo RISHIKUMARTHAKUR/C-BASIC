@@ -10,5 +10,6 @@ int main(){
         else{
             cout<< (++b);
     }
+    return 0;
     
 }

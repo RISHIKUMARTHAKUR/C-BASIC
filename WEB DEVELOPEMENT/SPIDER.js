@@ -99,7 +99,7 @@ requestAnimationFrame(function anim(t) {
     if (h !== innerHeight) h = canvas.height = innerHeight;
     ctx.fillStyle = "#000";
     drawCircle(0, 0, w * 10);
-    ctx.fillStyle = ctx.strokeStyle = "#fff";
+    ctx.fillStyle = ctx.strokeStyle = "#FF0000";
     t/=1000
     spiders.forEach(spider => spider.tick(t))
     requestAnimationFrame(anim);
